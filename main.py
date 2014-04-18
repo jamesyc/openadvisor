@@ -31,7 +31,7 @@ def run_brute_force(driver, refresh_every=3):
 		try:
 			submit.click()
 		except:
-			print "submit failed at: " + str(snum) + ", check page"
+			print "Submit failed at: " + str(snum) + ", check page"
 			break
 
 if __name__ == "__main__":
